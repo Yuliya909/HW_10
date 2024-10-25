@@ -1,0 +1,41 @@
+    1  git config --global user.name Yuliya909
+    2  git config --get user.name
+    3  git config --global user.email melnikyuliya909@gmail.com
+    4  git config --get user.email
+    5  git clon https://github.com/Yuliya909/HW_10.git
+    6  git clone https://github.com/Yuliya909/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  ls -l
+   10  nano .gitignore
+   11  git status
+   12  git add
+   13  git status
+   14  git commit -m "added new file"
+   15  clear
+   16  touch main_test.txt
+   17  git add
+   18  git commit -m "added new file 2"
+   19  git checkout -b develop
+   20  touch develop_test.txt
+   21  git add
+   22  git commit -m "added new file 3"
+   23  nano develop_test.txt
+   24  git status
+   25  git add
+   26  git commit -m "added new file 4
+   27  git commit -m "added new file 4"
+   28  git checkout main
+   29  git merge develop
+   30  git log
+   31  history > command_list.csv
+   32  git add
+   33  git commit -m "added new file 5"
+   34  git push origin main
+   35  git push origin main
+   36  clear
+   37  mkdir papka
+   38  ls -l
+   39  rm -rf papka
+   40  ls -l
+   41  history > command_list.csv
